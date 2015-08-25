@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442F9D901B8CE10A00BC54CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C661B89F32000E638C9 /* ViewController.m */; };
+		442F9D911B8CE10A00BC54CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C631B89F32000E638C9 /* AppDelegate.m */; };
+		442F9D921B8CE10A00BC54CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C601B89F32000E638C9 /* main.m */; };
+		442F9D951B8CE10A00BC54CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C681B89F32000E638C9 /* Main.storyboard */; };
+		442F9D961B8CE10A00BC54CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6D1B89F32000E638C9 /* LaunchScreen.xib */; };
+		442F9D971B8CE10A00BC54CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6B1B89F32000E638C9 /* Images.xcassets */; };
+		442F9DA31B8CE13100BC54CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C661B89F32000E638C9 /* ViewController.m */; };
+		442F9DA41B8CE13100BC54CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C631B89F32000E638C9 /* AppDelegate.m */; };
+		442F9DA51B8CE13100BC54CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C601B89F32000E638C9 /* main.m */; };
+		442F9DA81B8CE13100BC54CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C681B89F32000E638C9 /* Main.storyboard */; };
+		442F9DA91B8CE13100BC54CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6D1B89F32000E638C9 /* LaunchScreen.xib */; };
+		442F9DAA1B8CE13100BC54CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6B1B89F32000E638C9 /* Images.xcassets */; };
 		44CC0C611B89F32000E638C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C601B89F32000E638C9 /* main.m */; };
 		44CC0C641B89F32000E638C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C631B89F32000E638C9 /* AppDelegate.m */; };
 		44CC0C671B89F32000E638C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C661B89F32000E638C9 /* ViewController.m */; };
@@ -15,6 +27,36 @@
 		44CC0C6F1B89F32000E638C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6D1B89F32000E638C9 /* LaunchScreen.xib */; };
 		44CC0C7B1B89F32000E638C9 /* iosSettingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C7A1B89F32000E638C9 /* iosSettingSampleTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		442F9D8D1B8CDF8D00BC54CA /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+		442F9D981B8CE10A00BC54CA /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+		442F9DAB1B8CE13100BC54CA /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		44CC0C751B89F32000E638C9 /* PBXContainerItemProxy */ = {
@@ -28,6 +70,10 @@
 
 /* Begin PBXFileReference section */
 		442F9D7F1B8A184000BC54CA /* iosSettingSample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iosSettingSample copy-Info.plist"; path = "/Users/ppengotsu/Documents/publicdata/github/iosSettingSample/iosSettingSample copy-Info.plist"; sourceTree = "<absolute>"; };
+		442F9D9F1B8CE10A00BC54CA /* iosSettingSample copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosSettingSample copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		442F9DA01B8CE10A00BC54CA /* iosSettingSample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iosSettingSample copy-Info.plist"; path = "/Users/ppengotsu/Documents/publicdata/github/iosSettingSample/iosSettingSample copy-Info.plist"; sourceTree = "<absolute>"; };
+		442F9DB21B8CE13100BC54CA /* iosSettingSampleAdhoc copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosSettingSampleAdhoc copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		442F9DB31B8CE13100BC54CA /* iosSettingSampleAdhoc copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iosSettingSampleAdhoc copy-Info.plist"; path = "/Users/ppengotsu/Documents/publicdata/github/iosSettingSample/iosSettingSampleAdhoc copy-Info.plist"; sourceTree = "<absolute>"; };
 		44CC0C5B1B89F32000E638C9 /* iosSettingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosSettingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CC0C5F1B89F32000E638C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CC0C601B89F32000E638C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +90,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		442F9D931B8CE10A00BC54CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442F9DA61B8CE13100BC54CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44CC0C581B89F32000E638C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +128,8 @@
 				44CC0C771B89F32000E638C9 /* iosSettingSampleTests */,
 				44CC0C5C1B89F32000E638C9 /* Products */,
 				442F9D7F1B8A184000BC54CA /* iosSettingSample copy-Info.plist */,
+				442F9DA01B8CE10A00BC54CA /* iosSettingSample copy-Info.plist */,
+				442F9DB31B8CE13100BC54CA /* iosSettingSampleAdhoc copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +138,8 @@
 			children = (
 				44CC0C5B1B89F32000E638C9 /* iosSettingSample.app */,
 				44CC0C741B89F32000E638C9 /* iosSettingSampleTests.xctest */,
+				442F9D9F1B8CE10A00BC54CA /* iosSettingSample copy.app */,
+				442F9DB21B8CE13100BC54CA /* iosSettingSampleAdhoc copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +188,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		442F9D8E1B8CE10A00BC54CA /* iosSettingSampleAdhoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442F9D991B8CE10A00BC54CA /* Build configuration list for PBXNativeTarget "iosSettingSampleAdhoc" */;
+			buildPhases = (
+				442F9D8F1B8CE10A00BC54CA /* Sources */,
+				442F9D931B8CE10A00BC54CA /* Frameworks */,
+				442F9D941B8CE10A00BC54CA /* Resources */,
+			);
+			buildRules = (
+				442F9D981B8CE10A00BC54CA /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = iosSettingSampleAdhoc;
+			productName = iosSettingSample;
+			productReference = 442F9D9F1B8CE10A00BC54CA /* iosSettingSample copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		442F9DA11B8CE13100BC54CA /* iosSettingSampleRelease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442F9DAC1B8CE13100BC54CA /* Build configuration list for PBXNativeTarget "iosSettingSampleRelease" */;
+			buildPhases = (
+				442F9DA21B8CE13100BC54CA /* Sources */,
+				442F9DA61B8CE13100BC54CA /* Frameworks */,
+				442F9DA71B8CE13100BC54CA /* Resources */,
+			);
+			buildRules = (
+				442F9DAB1B8CE13100BC54CA /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = iosSettingSampleRelease;
+			productName = iosSettingSample;
+			productReference = 442F9DB21B8CE13100BC54CA /* iosSettingSampleAdhoc copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		44CC0C5A1B89F32000E638C9 /* iosSettingSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44CC0C7E1B89F32000E638C9 /* Build configuration list for PBXNativeTarget "iosSettingSample" */;
@@ -133,6 +233,7 @@
 				44CC0C591B89F32000E638C9 /* Resources */,
 			);
 			buildRules = (
+				442F9D8D1B8CDF8D00BC54CA /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -191,12 +292,34 @@
 			projectRoot = "";
 			targets = (
 				44CC0C5A1B89F32000E638C9 /* iosSettingSample */,
+				442F9D8E1B8CE10A00BC54CA /* iosSettingSampleAdhoc */,
+				442F9DA11B8CE13100BC54CA /* iosSettingSampleRelease */,
 				44CC0C731B89F32000E638C9 /* iosSettingSampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		442F9D941B8CE10A00BC54CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F9D951B8CE10A00BC54CA /* Main.storyboard in Resources */,
+				442F9D961B8CE10A00BC54CA /* LaunchScreen.xib in Resources */,
+				442F9D971B8CE10A00BC54CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442F9DA71B8CE13100BC54CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F9DA81B8CE13100BC54CA /* Main.storyboard in Resources */,
+				442F9DA91B8CE13100BC54CA /* LaunchScreen.xib in Resources */,
+				442F9DAA1B8CE13100BC54CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44CC0C591B89F32000E638C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +340,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		442F9D8F1B8CE10A00BC54CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F9D901B8CE10A00BC54CA /* ViewController.m in Sources */,
+				442F9D911B8CE10A00BC54CA /* AppDelegate.m in Sources */,
+				442F9D921B8CE10A00BC54CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442F9DA21B8CE13100BC54CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442F9DA31B8CE13100BC54CA /* ViewController.m in Sources */,
+				442F9DA41B8CE13100BC54CA /* AppDelegate.m in Sources */,
+				442F9DA51B8CE13100BC54CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44CC0C571B89F32000E638C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,6 +639,140 @@
 			};
 			name = DebugManual;
 		};
+		442F9D9A1B8CE10A00BC54CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSample copy";
+			};
+			name = Debug;
+		};
+		442F9D9B1B8CE10A00BC54CA /* Debug1 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG1=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSample copy";
+			};
+			name = Debug1;
+		};
+		442F9D9C1B8CE10A00BC54CA /* Debug2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG2=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSample copy";
+			};
+			name = Debug2;
+		};
+		442F9D9D1B8CE10A00BC54CA /* DebugManual */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUGMANUAL=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSample copy";
+			};
+			name = DebugManual;
+		};
+		442F9D9E1B8CE10A00BC54CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSample copy";
+			};
+			name = Release;
+		};
+		442F9DAD1B8CE13100BC54CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
+			};
+			name = Debug;
+		};
+		442F9DAE1B8CE13100BC54CA /* Debug1 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG1=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
+			};
+			name = Debug1;
+		};
+		442F9DAF1B8CE13100BC54CA /* Debug2 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG2=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
+			};
+			name = Debug2;
+		};
+		442F9DB01B8CE13100BC54CA /* DebugManual */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUGMANUAL=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
+			};
+			name = DebugManual;
+		};
+		442F9DB11B8CE13100BC54CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
+			};
+			name = Release;
+		};
 		44CC0C7C1B89F32000E638C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -635,6 +912,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		442F9D991B8CE10A00BC54CA /* Build configuration list for PBXNativeTarget "iosSettingSampleAdhoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442F9D9A1B8CE10A00BC54CA /* Debug */,
+				442F9D9B1B8CE10A00BC54CA /* Debug1 */,
+				442F9D9C1B8CE10A00BC54CA /* Debug2 */,
+				442F9D9D1B8CE10A00BC54CA /* DebugManual */,
+				442F9D9E1B8CE10A00BC54CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442F9DAC1B8CE13100BC54CA /* Build configuration list for PBXNativeTarget "iosSettingSampleRelease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442F9DAD1B8CE13100BC54CA /* Debug */,
+				442F9DAE1B8CE13100BC54CA /* Debug1 */,
+				442F9DAF1B8CE13100BC54CA /* Debug2 */,
+				442F9DB01B8CE13100BC54CA /* DebugManual */,
+				442F9DB11B8CE13100BC54CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44CC0C561B89F32000E638C9 /* Build configuration list for PBXProject "iosSettingSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
