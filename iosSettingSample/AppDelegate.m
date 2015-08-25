@@ -8,6 +8,28 @@
 
 #import "AppDelegate.h"
 
+#ifdef DEBUG1
+    //Debug1のとき
+    static const NSString *log1 = @"Debuglog1";
+
+#elif DEBUG2
+    //Debug2のとき
+    static const NSString *log1 = @"Debuglog2";
+
+#elif DEBUGMANUAL
+    //DebugManualのとき
+    static const NSString *log1 = @"DebuglogManual";
+
+#elif DEBUG
+    //Debugのとき
+    static const NSString *log1 = @"Debuglog";
+
+#else
+    //Releaseのとき
+    static const NSString *log1 = @"ReleaseLog";
+
+#endif
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +39,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    NSLog(@"ログ=%@",log1);
+    
     return YES;
 }
 
