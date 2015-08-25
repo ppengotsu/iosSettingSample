@@ -19,6 +19,18 @@
 		442F9DA81B8CE13100BC54CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C681B89F32000E638C9 /* Main.storyboard */; };
 		442F9DA91B8CE13100BC54CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6D1B89F32000E638C9 /* LaunchScreen.xib */; };
 		442F9DAA1B8CE13100BC54CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CC0C6B1B89F32000E638C9 /* Images.xcassets */; };
+		442F9DB71B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */; };
+		442F9DB81B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */; };
+		442F9DB91B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */; };
+		442F9DBA1B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */; };
+		442F9DBB1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */; };
+		442F9DBC1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */; };
+		442F9DBD1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */; };
+		442F9DBE1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */; };
+		442F9DBF1B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */; };
+		442F9DC01B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */; };
+		442F9DC11B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */; };
+		442F9DC21B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */; };
 		44CC0C611B89F32000E638C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C601B89F32000E638C9 /* main.m */; };
 		44CC0C641B89F32000E638C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C631B89F32000E638C9 /* AppDelegate.m */; };
 		44CC0C671B89F32000E638C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC0C661B89F32000E638C9 /* ViewController.m */; };
@@ -69,13 +81,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		442F9D7F1B8A184000BC54CA /* iosSettingSample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iosSettingSample copy-Info.plist"; path = "/Users/ppengotsu/Documents/publicdata/github/iosSettingSample/iosSettingSample copy-Info.plist"; sourceTree = "<absolute>"; };
 		442F9D9F1B8CE10A00BC54CA /* iosSettingSample copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosSettingSample copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		442F9DA01B8CE10A00BC54CA /* iosSettingSample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iosSettingSample copy-Info.plist"; path = "/Users/ppengotsu/Documents/publicdata/github/iosSettingSample/iosSettingSample copy-Info.plist"; sourceTree = "<absolute>"; };
 		442F9DB21B8CE13100BC54CA /* iosSettingSampleAdhoc copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosSettingSampleAdhoc copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		442F9DB31B8CE13100BC54CA /* iosSettingSampleAdhoc copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iosSettingSampleAdhoc copy-Info.plist"; path = "/Users/ppengotsu/Documents/publicdata/github/iosSettingSample/iosSettingSampleAdhoc copy-Info.plist"; sourceTree = "<absolute>"; };
+		442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iosSettingSample-info.plist"; sourceTree = "<group>"; };
+		442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iosSettingSampleAdhoc-Info.plist"; sourceTree = "<group>"; };
+		442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iosSettingSampleRelease-Info.plist"; sourceTree = "<group>"; };
 		44CC0C5B1B89F32000E638C9 /* iosSettingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosSettingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44CC0C5F1B89F32000E638C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CC0C601B89F32000E638C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44CC0C621B89F32000E638C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44CC0C631B89F32000E638C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,9 +138,6 @@
 				44CC0C5D1B89F32000E638C9 /* iosSettingSample */,
 				44CC0C771B89F32000E638C9 /* iosSettingSampleTests */,
 				44CC0C5C1B89F32000E638C9 /* Products */,
-				442F9D7F1B8A184000BC54CA /* iosSettingSample copy-Info.plist */,
-				442F9DA01B8CE10A00BC54CA /* iosSettingSample copy-Info.plist */,
-				442F9DB31B8CE13100BC54CA /* iosSettingSampleAdhoc copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,7 +170,9 @@
 		44CC0C5E1B89F32000E638C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				44CC0C5F1B89F32000E638C9 /* Info.plist */,
+				442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */,
+				442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */,
+				442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */,
 				44CC0C601B89F32000E638C9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -305,6 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				442F9D951B8CE10A00BC54CA /* Main.storyboard in Resources */,
+				442F9DC01B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */,
+				442F9DBC1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */,
+				442F9DB81B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */,
 				442F9D961B8CE10A00BC54CA /* LaunchScreen.xib in Resources */,
 				442F9D971B8CE10A00BC54CA /* Images.xcassets in Resources */,
 			);
@@ -315,6 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				442F9DA81B8CE13100BC54CA /* Main.storyboard in Resources */,
+				442F9DC11B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */,
+				442F9DBD1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */,
+				442F9DB91B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */,
 				442F9DA91B8CE13100BC54CA /* LaunchScreen.xib in Resources */,
 				442F9DAA1B8CE13100BC54CA /* Images.xcassets in Resources */,
 			);
@@ -325,6 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CC0C6A1B89F32000E638C9 /* Main.storyboard in Resources */,
+				442F9DBF1B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */,
+				442F9DBB1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */,
+				442F9DB71B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */,
 				44CC0C6F1B89F32000E638C9 /* LaunchScreen.xib in Resources */,
 				44CC0C6C1B89F32000E638C9 /* Images.xcassets in Resources */,
 			);
@@ -334,6 +353,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442F9DBE1B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist in Resources */,
+				442F9DC21B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist in Resources */,
+				442F9DBA1B8CE34E00BC54CA /* iosSettingSample-info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +481,7 @@
 					"DEBUG1=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = iosSettingSample/Info.plist;
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,7 +558,7 @@
 					"DEBUG2=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = iosSettingSample/Info.plist;
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -613,7 +635,7 @@
 					"DEBUGMANUAL=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = iosSettingSample/Info.plist;
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -643,7 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleAdhoc-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSample copy";
@@ -658,7 +680,7 @@
 					"DEBUG1=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleAdhoc-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSample copy";
@@ -673,7 +695,7 @@
 					"DEBUG2=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleAdhoc-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSample copy";
@@ -688,7 +710,7 @@
 					"DEBUGMANUAL=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleAdhoc-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSample copy";
@@ -699,7 +721,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "iosSettingSample copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleAdhoc-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSample copy";
@@ -710,7 +732,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleRelease-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
@@ -725,7 +747,7 @@
 					"DEBUG1=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleRelease-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
@@ -740,7 +762,7 @@
 					"DEBUG2=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleRelease-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
@@ -755,7 +777,7 @@
 					"DEBUGMANUAL=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleRelease-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
@@ -766,7 +788,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "iosSettingSampleAdhoc copy-Info.plist";
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSampleRelease-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "iosSettingSampleAdhoc copy";
@@ -857,7 +879,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iosSettingSample/Info.plist;
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -868,7 +890,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iosSettingSample/Info.plist;
+				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
