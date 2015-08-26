@@ -86,6 +86,10 @@
 		442F9DB41B8CE34E00BC54CA /* iosSettingSample-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iosSettingSample-info.plist"; sourceTree = "<group>"; };
 		442F9DB51B8CE34E00BC54CA /* iosSettingSampleAdhoc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iosSettingSampleAdhoc-Info.plist"; sourceTree = "<group>"; };
 		442F9DB61B8CE34E00BC54CA /* iosSettingSampleRelease-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iosSettingSampleRelease-Info.plist"; sourceTree = "<group>"; };
+		442F9DE01B8E023700BC54CA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		442F9DE21B8E070200BC54CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		442F9DE41B8E08AD00BC54CA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		442F9DE61B8E08B300BC54CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		44CC0C5B1B89F32000E638C9 /* iosSettingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosSettingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CC0C601B89F32000E638C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44CC0C621B89F32000E638C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -281,6 +285,7 @@
 				TargetAttributes = {
 					44CC0C5A1B89F32000E638C9 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3WZMYL5AE6;
 					};
 					44CC0C731B89F32000E638C9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -295,6 +300,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				de,
 			);
 			mainGroup = 44CC0C521B89F32000E638C9;
 			productRefGroup = 44CC0C5C1B89F32000E638C9 /* Products */;
@@ -415,6 +422,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				44CC0C691B89F32000E638C9 /* Base */,
+				442F9DE41B8E08AD00BC54CA /* ja */,
+				442F9DE61B8E08B300BC54CA /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +432,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				44CC0C6E1B89F32000E638C9 /* Base */,
+				442F9DE01B8E023700BC54CA /* ja */,
+				442F9DE21B8E070200BC54CA /* de */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -477,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG1=1",
 					"$(inherited)",
@@ -554,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG2=1",
 					"$(inherited)",
@@ -631,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUGMANUAL=1",
 					"$(inherited)",
@@ -879,6 +893,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -890,6 +905,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "iosSettingSample/iosSettingSample-info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
